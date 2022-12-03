@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0%;
+}
+body{
+    height: 200vh;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+header{
+    background-color: rgb(30, 102, 101);
+    height: 180px;
+}
+.logo{
+    clip-path: circle();
+    box-sizing: content-box;
+}
