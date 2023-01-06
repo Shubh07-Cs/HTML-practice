@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <h1>JAVASCRIPT AND DOM</h1>
+        <UL>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>settings</li>
+            <li>Quit</li>
+            
+        </UL>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corporis laboriosam beatae aut! Tempora alias odit facere vitae, aspernatur harum necessitatibus ut perferendis nostrum animi, magni fuga aliquam quaerat sit! Nam, tenetur commodi voluptas, esse inventore aperiam ipsa exercitationem ut doloremque assumenda illum. Doloremque totam, at veritatis ea maiores dolores doloribus. Totam labore reprehenderit nulla.</p>
+        <!-- <input type="button" value="alert" id="alertbutton"> -->
+
+        <!-- <input type="button" value="toggle" id="togglebutton"> -->
+
+        <input type="button" value="count" id="counting">
+        <input type="button" value="Rainbow" id="color">
+
+    </div>
+    <script>
+        // let a=document.getElementById("counting");
+        // a.onclick=function printOnconsole(){
+        //     for(let i=0;i<=10; i++ ){
+        //         console.log(i)
+        //     }
+        // }
+       
+        // let mainDiv=document.getElementById("mainDiv");
+        // console.log(mainDiv)
+
+
+
+        // let alertbutton=document.getElementById("alertbutton");
+        // alertbutton.onclick=function givealert()
+        // {
+        //     alert("Clicked on button");
+        // }
+
+
+
+        // let togglebutton=document.getElementById("togglebutton")
+        // let para=document.getElementById("para")
+        // togglebutton.onclick=function toggleVisibility()
+        // {
+        //     if (para.style.display!="none")
+        //     {
+        //         para.style.display="none";
+        //     }
+        //     else
+        //     {
+        //         para.style.display="block";
+        //     }
+        // }
+        // para.addEventListener("mouseout",function){
+
+        // }
+        let a=document.getElementById("para");
+        let rainbow=document.getElementById("color");
+        rainbow.onclick=function colorchng(){
+            a.style.color="green"
+        }
+        function greet(){
+            console.log("hello world");
+        }
+        //let timeout=settimeout(greet,5000)
+        //clearTimeout(timeout);
+        let interval= setInterval(greet,1000);
+        clearInterval(interval);
+</script>
+</body>
+</html>

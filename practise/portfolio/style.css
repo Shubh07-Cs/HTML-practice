@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: o;
     padding: 0%;
+    
 }
 body{
     height: 200vh;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: top;
 }
 header{
@@ -14,6 +15,14 @@ header{
     height: 180px;
 }
 .logo{
-    clip-path: circle();
-    box-sizing: content-box;
+    display: flex;
+    width: 800px;
+    height: 180px;
+    
+}
+
+
+.content{
+    background-color: antiquewhite;
+    text-align: center;
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="clock">DATE AND TIME IS: <span id="datetime">DEFAULT</span></p>
+    <script>
+        let texttochange=document.getElementById("datetime")
+        function display(){
+            let datetime=new Date();
+            console.log(datetime);
+            texttochange.innerHTML=datetime;
+        }
+        setInterval(display,1000);
+    </script>
+</body>
+</html>

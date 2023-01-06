@@ -1,0 +1,134 @@
+*{
+    
+    color: antiquewhite;
+    background-color: black;
+}
+
+menu a{
+    text-decoration: none;
+    text-decoration: none;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: bold;
+margin: 0px 0px 0px 249px;
+
+}
+.container .photo{
+    display: flex;
+   
+}
+.container{
+    border: 4px solid white;
+    background-color: black;
+    border-radius: 61px;
+    border-style: double;
+
+}
+.photo{
+    width: 400px;
+margin: -290px 0px 0px 1062px;
+border: 2px solid black;
+border-radius: 250px;
+}
+.wel{
+    text-transform: capitalize;
+    font-size: 100px;
+    margin: 96px 0px 0px 140px;
+}
+.myself{
+    border: 4px solid white;
+    background-color: black;
+    border-radius: 61px;
+    border-style: double;
+    margin-top: 66px;
+} 
+.who{
+    text-transform: capitalize;
+    font-size: 100px;
+    margin: 96px 0px 0px 140px;
+} 
+.intro{
+    text-transform: none;
+    font-size: 40px;
+    margin: 96px 0px 0px 140px;
+} 
+.name{
+    text-transform: capitalize;
+    margin: 96px 0px 0px 140px;
+    font-size: 30px;
+}
+.bg{
+    border: 4px solid white;
+    background-color: black;
+    border-radius: 61px;
+    border-style: double;
+    margin-top: 66px;
+}
+.Background{
+    text-transform: capitalize;
+    font-size: 100px;
+    margin: 96px 0px 0px 140px;
+} 
+.edu{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 96px 0px 0px 135px;
+} 
+.exp{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 96px 0px 0px 135px;
+} 
+.expl{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 96px 0px 0px 910px;
+} 
+.edul{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 96px 0px 0px 910px;
+} 
+.work{
+    border: 4px solid white;
+    background-color: black;
+    border-radius: 61px;
+    border-style: double;
+
+}
+.mywork{
+    text-transform: capitalize;
+    font-size: 100px;
+    margin: 96px 0px 0px 140px;
+}
+#h{
+    margin: 0px 0px 0px 800px;
+}
+#b{
+    margin: -24px 0px -30px 909px;
+display: flex;
+}
+#w{
+    margin: 0px 0px 0px 1000px;
+}
+#c{
+    margin: -26px 0px 46px 1150px;
+    display: flex;
+}
+.photo1{
+    width: 352px;
+margin: 139px 0px 0px 168px;
+}
+.container1{
+    border: 4px solid white;
+    border-style: double;
+    height: 661px;
+    margin-top: 66px;
+border-radius: 62px;
+}
+.h{
+    color: white;
+text-transform: uppercase;
+font-size: 94px;
+margin: 69px 0px -76px 129px;
+}
